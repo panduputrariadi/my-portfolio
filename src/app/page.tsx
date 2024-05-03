@@ -1,9 +1,11 @@
-import Image from "next/image";
-
+"use client";
+import React from "react";
+import Navbar from "@/Components/Header/Header";
+import PortfoilioHome from "@/Pages/PortfolioHome";
 export default function Home() {
   return (
-    <main className="font-extrabold bg-light w-full min-h-screen">
-      test
+    <main>
+       <PortfoilioHome />
     </main>
   );
 }
