@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/Components/Header/Header";
+import PortfoilioHome from "@/Components/Pages/PortfolioHome";
 export default function Home() {
   return (
-    <main className="bg-light w-full min-h-screen">
-       <Navbar />
+    <main>
+       <PortfoilioHome />
     </main>
   );
 }
